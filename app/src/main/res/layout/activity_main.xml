@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <com.csp.library.view.SwatchView
+        android:id="@+id/swatchView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:color_stroke_width="2"
+        app:label_alignment="left"
+        app:label_color_text="my color label:"
+        app:label_color_text_color="#000000"
+        app:label_color_text_size="16sp"
+        app:label_selected_color_text_color="#000000"
+        app:label_selected_color_text_size="16sp"
+        app:no_color_placeholder="Please select color"
+        app:selected_stroke_color="#000000"
+        app:selected_stroke_width="2"
+        app:shape="oval"
+        app:swatch_background_color="#F3F0F0" />
+
+
+    <com.csp.library.view.SwatchView
+        android:id="@+id/swatchView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:color_stroke_width="2"
+        app:label_alignment="center"
+        app:label_color_text_color="#000000"
+        app:label_color_text_size="16sp"
+        app:label_selected_color_text_color="@color/colorPrimaryDark"
+        app:label_selected_color_text_size="16sp"
+        app:no_color_placeholder="any placeholder text"
+        app:selected_stroke_color="#000000"
+        app:selected_stroke_width="2"
+        app:shape="rectangle"
+        app:swatch_background_color="#F3F0F0" />
+
+    <com.csp.library.view.SwatchView
+        android:id="@+id/swatchView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:color_stroke_width="2"
+        app:label_alignment="right"
+        app:label_color_text_color="@color/colorPrimary"
+        app:label_color_text_size="16sp"
+        app:label_selected_color_text_color="@color/colorAccent"
+        app:label_selected_color_text_size="16sp"
+        app:selected_stroke_color="@color/colorPrimaryDark"
+        app:selected_stroke_width="5"
+        app:shape="oval"
+        app:swatch_background_color="#F3F0F0" />
+
+</LinearLayout>

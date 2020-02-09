@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SwatchView">
+        <attr name="shape" format="integer">
+            <enum name="rectangle" value="0" />
+            <enum name="oval" value="1" />
+        </attr>
+        <attr name="selected_stroke_color" format="color" />
+        <attr name="selected_stroke_width" format="integer" />
+        <attr name="color_stroke_width" format="integer" />
+        <attr name="swatch_background_color" format="color" />
+        <attr name="label_alignment" format="string">
+            <enum name="left" value="0" />
+            <enum name="center" value="1" />
+            <enum name="right" value="2" />
+        </attr>
+        <attr name="label_color_text_size" format="dimension" />
+        <attr name="label_color_text" format="string" />
+        <attr name="label_color_text_color" format="color" />
+        <attr name="label_selected_color_text_size" format="dimension" />
+        <attr name="label_selected_color_text_color" format="color" />
+        <attr name="no_color_placeholder" format="string" />
+
+    </declare-styleable>
+</resources>

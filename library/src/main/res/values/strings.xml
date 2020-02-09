@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">library</string>
+    <string name="label_color">Color:</string>
+</resources>
